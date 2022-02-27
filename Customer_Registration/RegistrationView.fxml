@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Customer_Registration.RegistrationViewController">
+   <children>
+      <AnchorPane prefHeight="625.0" prefWidth="500.0">
+         <children>
+            <Button fx:id="sav" layoutX="55.0" layoutY="531.0" mnemonicParsing="false" onAction="#doSave" prefHeight="46.0" prefWidth="109.0" text="SAVE" textFill="#862222">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="196.0" layoutY="531.0" mnemonicParsing="false" onAction="#doNew" prefHeight="46.0" prefWidth="109.0" text="NEW" textFill="#8d1414">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="334.0" layoutY="531.0" mnemonicParsing="false" onAction="#doUpdate" prefHeight="46.0" prefWidth="109.0" text="UPDATE" textFill="#941919">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="imgpick" fitHeight="119.0" fitWidth="123.0" layoutX="186.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@parking.png" />
+               </image></ImageView>
+            <Button layoutX="193.0" layoutY="186.0" mnemonicParsing="false" onAction="#doBrowse" prefHeight="27.0" prefWidth="109.0" text="Browse" />
+            <Label layoutX="29.0" layoutY="237.0" prefHeight="38.0" prefWidth="135.0" text="Mobile No." textFill="#1c469a">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="287.0" prefHeight="38.0" prefWidth="135.0" text="Name" textFill="#1049a4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="345.0" prefHeight="38.0" prefWidth="135.0" text="Address" textFill="#0d5b9a">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="414.0" prefHeight="38.0" prefWidth="135.0" text="City" textFill="#0b4f94">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtMobile" layoutX="191.0" layoutY="236.0" prefHeight="38.0" prefWidth="262.0" />
+            <TextField fx:id="txtName" layoutX="191.0" layoutY="289.0" prefHeight="38.0" prefWidth="262.0" />
+            <TextField fx:id="txtAddress" layoutX="191.0" layoutY="344.0" prefHeight="58.0" prefWidth="262.0" />
+            <TextField fx:id="txtCity" layoutX="191.0" layoutY="418.0" prefHeight="38.0" prefWidth="262.0" />
+            <Button layoutX="403.0" layoutY="236.0" mnemonicParsing="false" onAction="#doFetch" prefHeight="38.0" prefWidth="50.0" text="Fetch">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" layoutX="23.0" layoutY="6.0" prefHeight="45.0" prefWidth="451.0" text="Registartion " textFill="#b034b9">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Separator layoutY="57.0" prefHeight="3.0" prefWidth="500.0" />
+            <Label fx:id="lbl" layoutX="136.0" layoutY="587.0" prefHeight="38.0" prefWidth="216.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="475.0" prefHeight="38.0" prefWidth="109.0" text="Vehicle No." textFill="#2344a8">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="vno" layoutX="191.0" layoutY="472.0" prefHeight="38.0" prefWidth="262.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

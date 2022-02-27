@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="547.0" prefWidth="684.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dash_Board.DashViewController">
+   <children>
+      <AnchorPane layoutX="-6.0" prefHeight="547.0" prefWidth="714.0" style="-fx-background-color: pink;">
+         <children>
+            <Circle fill="#e9fdff" layoutX="564.0" layoutY="362.0" radius="78.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#d2fffb" layoutX="356.0" layoutY="364.0" radius="78.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ebfffe" layoutX="562.0" layoutY="150.0" radius="78.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ecfeff" layoutX="347.0" layoutY="150.0" radius="78.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#d1f8f6" layoutX="137.0" layoutY="362.0" radius="73.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ebfdff" layoutX="137.0" layoutY="148.0" radius="77.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView fitHeight="129.0" fitWidth="146.0" layoutX="500.0" layoutY="86.0" onMouseClicked="#customRegister" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="138.0" fitWidth="120.0" layoutX="80.0" layoutY="299.0" onMouseClicked="#Playout" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img9.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="129.0" fitWidth="120.0" layoutX="287.0" layoutY="86.0" onMouseClicked="#VExit" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="183.0" layoutX="472.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cr1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="46.0" fitWidth="224.0" layoutX="68.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@txtimg2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="120.0" fitWidth="129.0" layoutX="80.0" layoutY="86.0" onMouseClicked="#VEntry" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img10.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="146.0" fitWidth="144.0" layoutX="282.0" layoutY="290.0" onMouseClicked="#PLog" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="129.0" fitWidth="129.0" layoutX="499.0" layoutY="299.0" onMouseClicked="#CustomLog" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img6.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="46.0" fitWidth="183.0" layoutX="72.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cooltext330262324456532.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="46.0" fitWidth="136.0" layoutX="281.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@txtimg4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="46.0" fitWidth="147.0" layoutX="287.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@txtimg5.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="46.0" fitWidth="200.0" layoutX="493.0" layoutY="451.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@txtimg6.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" prefHeight="68.0" prefWidth="708.0" style="-fx-background-color: white;" text="Vehicle Parking" textFill="#f27cb5">
+         <font>
+            <Font size="46.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

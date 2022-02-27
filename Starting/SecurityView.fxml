@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="372.0" prefWidth="578.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Starting.SecurityViewController">
+   <children>
+      <Label alignment="CENTER" layoutX="30.0" prefHeight="96.0" prefWidth="507.0" text="Admin Block" textFill="#311ee4" underline="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="264.0" layoutY="308.0" onMouseClicked="#doForget" prefHeight="37.0" prefWidth="162.0" text="Forget Password?" />
+      <Button layoutX="299.0" layoutY="246.0" mnemonicParsing="false" onAction="#doLogin" prefHeight="44.0" prefWidth="93.0" style="-fx-background-color: green;" text="Login" textFill="#eeeeee">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbl" layoutX="411.0" layoutY="250.0" prefHeight="37.0" prefWidth="162.0" textFill="#f22424" />
+      <PasswordField fx:id="password" layoutX="387.0" layoutY="173.0" promptText="Password" />
+      <Label alignment="CENTER" layoutX="231.0" layoutY="167.0" prefHeight="37.0" prefWidth="114.0" text="Password">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="231.0" layoutY="105.0" prefHeight="37.0" prefWidth="114.0" text="User Id">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtId" layoutX="387.0" layoutY="111.0" promptText="Enter id" />
+      <ImageView fitHeight="120.0" fitWidth="149.0" layoutX="38.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images%20(5).jpg" />
+         </image>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="38.0" layoutX="549.0" onMouseClicked="#click" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="paslbl" layoutX="456.0" layoutY="24.0" onMouseClicked="#click2" prefHeight="37.0" prefWidth="114.0" text="Change Password" visible="false">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
